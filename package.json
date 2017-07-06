@@ -1,0 +1,22 @@
+{
+  "name": "audit-pricing",
+  "homepage": "https://github.com/ExodusMovement/audit-pricing#readme",
+  "bugs": {
+    "url": "https://github.com/ExodusMovement/audit-pricing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExodusMovement/audit-pricing.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "cryptocompare": "^0.1.0",
+    "node-fetch": "^1.7.1"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0"
+  },
+  "private": true
+}
