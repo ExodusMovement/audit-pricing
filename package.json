@@ -9,10 +9,13 @@
     "url": "git+https://github.com/ExodusMovement/audit-pricing.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava --serial --no-power-assert",
+    "diff": "bash diff.sh",
+    "update": "rm -rf fixtures/ && cp -r results/ fixtures/"
   },
   "dependencies": {
     "cryptocompare": "^0.1.0",
+    "fs-extra": "^4.0.2",
     "node-fetch": "^1.7.1"
   },
   "devDependencies": {
