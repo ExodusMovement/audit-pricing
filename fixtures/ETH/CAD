@@ -4501,11 +4501,11 @@
   },
   {
     "time": 1508803200,
-    "close": 394,
-    "high": 395,
+    "close": 385.1,
+    "high": 397.99,
     "low": 364.02,
     "open": 364.81,
-    "volumefrom": 3114.22,
-    "volumeto": 1209000.43
+    "volumefrom": 4228.3,
+    "volumeto": 1648643.54
   }
 ]
